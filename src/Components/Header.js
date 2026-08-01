@@ -12,7 +12,7 @@ const Header = () => {
 
         <nav className="navmenu">
           <ul className="flex space-x-9 font-light">
-            <li><Link to="/index" className="active text-blue-500">Home</a></li>
+            <li><Link to="/index" className="active text-blue-500">Home</Link></li>
             <li className="relative group">
               <a href="/" className="hover:text-blue-500">Product</a>
               <ul className="absolute hidden w-44 pt-4 bg-white shadow-lg group-hover:block">
