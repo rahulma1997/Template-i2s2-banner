@@ -1,9 +1,7 @@
 import React from 'react';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import WorkIcon from '@mui/icons-material/Work';
-import BarChartIcon from '@mui/icons-material/BarChart';
 import VisibilityIcon from '@mui/icons-material/Visibility';
-import BrightnessHighIcon from '@mui/icons-material/BrightnessHigh';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import SignalCellularAltOutlinedIcon from '@mui/icons-material/SignalCellularAltOutlined';
@@ -54,7 +52,7 @@ const ServicesSection = () => {
                     <span className="text-red-500 mr-4">{service.icon}</span>
                     <div>
                       <h4 className="title text-xl font-semibold mb-2">
-                        <a href="#" className="hover:underline">{service.title}</a>
+                        <a href="/" className="hover:underline">{service.title}</a>
                       </h4>
                       <p className="description text-gray-600">{service.description}</p>
                     </div>
@@ -72,7 +70,7 @@ const ServicesSection = () => {
                     <span className="text-red-500 mr-4">{service.icon}</span>
                     <div>
                       <h4 className="title text-xl font-semibold mb-2">
-                        <a href="#" className="hover:underline">{service.title}</a>
+                        <a href="/" className="hover:underline">{service.title}</a>
                       </h4>
                       <p className="description text-gray-600">{service.description}</p>
                     </div>
